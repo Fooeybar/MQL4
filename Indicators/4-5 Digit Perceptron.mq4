@@ -9,7 +9,8 @@
 extern color colour=clrMediumTurquoise;//Colour
 double x=0,sum=0,rate=1,t=0;
 int dRelu=0;
-double wclose=0.05,wopen=0.05,wlow=0.05,whigh=0.05,prelu=0.1;//simple peristence model example, small weights just as good as random, not suitable for trading information
+//simple peristence model example, small weights just as good as random, not suitable for trading information
+double wclose=0.05,wopen=0.05,wlow=0.05,whigh=0.05,prelu=0.1;
 double line[];
 //=================================================================================================//
 int init(){
